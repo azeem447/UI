@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
     }
 
     // display form values on success
-    console.log(JSON.stringify(this.registerForm.value, null, 4));
+    console.log(JSON.stringify(this.registerForm.value));
   }
 
   onReset() {
